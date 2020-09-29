@@ -1,2 +1,6 @@
 # Music-Player
-Asimple music player
+A responsive music player with a clean and minimalistic design.
+plays local files.
+I really enjoyed building this.
+
+This project idea is referenced from https://academy.zerotomastery.io/p/javascript-projects
