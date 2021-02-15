@@ -2,8 +2,6 @@ const image = document.querySelector('img');
 const title = document.getElementById('title');
 const artist = document.getElementById('artist');
 const music = document.querySelector('audio');
-const volumeBtn = document.getElementById('btn--volume');
-const volumeControl = document.getElementById('volume-control');
 const progressContainer = document.getElementById('progress-container');
 const progress = document.getElementById('progress');
 const currentTimeEl = document.getElementById('current-time');
@@ -18,11 +16,6 @@ const songs = [
         name: 'MbiloMbilo-1',
         displayName: 'Mbilo Mbilo',
         artist:'Eddy Kenzo',
-    },
-    {
-        name: 'Mr.DJ-2',
-        displayName: 'Mr DJ',
-        artist:'Swangz Ave',
     },
     {
         name: 'SityaLoss-3',
@@ -64,11 +57,6 @@ function pauseSong() {
     playBtn.setAttribute('title', 'Play');
     music.pause();
   }  
-
-  //Volume
-  function setVolume(value) {
-    audio.volume = value;
-  }
 
 // Play or Pause Event Listener
 playBtn.addEventListener('click', () => (isPlaying ? pauseSong() : playSong()));
