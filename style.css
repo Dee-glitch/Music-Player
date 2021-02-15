@@ -80,40 +80,6 @@ h3 {
   justify-content: space-between;
 }
 
-/* Volume */
-.volume-container {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 10px;
-  right: -70px;
-  bottom: 5px;
-}
-.volume-container:hover .volume-control {
-  display: block;
-}
-.volume-control {
-  -webkit-appearance: none;
-  outline: none;
-  border: solid 1px rgb(199, 199, 199);
-  background-color: rgb(199, 199, 199);
-  transform: rotate(-90deg);
-  width: 100px;
-  margin-bottom: 50px;
-  display: none;
-  overflow: hidden;
-  cursor: pointer;
-}
-.volume-control::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 5px;
-  height: 15px;
-  background-color: rgb(72, 147, 245);
-  box-shadow: -100px 0px 0 100px rgb(72, 147, 245);
-  cursor: pointer;
-}
-
 /* Controls */
 .player-controls {
   position: relative;
